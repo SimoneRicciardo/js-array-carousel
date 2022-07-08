@@ -21,3 +21,21 @@ up.addEventListener('click',
         imgList[visibile].classList.add('show')
     }
 );
+
+const down = document.querySelector('.down');
+
+down.addEventListener('click',
+    function(){
+
+        imgList[visibile].classList.remove('show')
+        visibile--;
+        imgList[visibile].classList.add('show')
+
+        
+       
+    }
+);
+
+
+
+
